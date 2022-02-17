@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func clickMoveBtn(_ sender: Any) {
+    @IBAction func clickMoveToDetailView(_ sender: Any) {
         // StoryBoard find controller(DetailController)
         if let controller = self.storyboard?.instantiateViewController(withIdentifier: "DetailController") {
             // move controller
@@ -26,6 +26,12 @@ class ViewController: UIViewController {
     
     @IBAction func clickMoveToWebViewController(_ sender: Any) {
         if let controller = self.storyboard?.instantiateViewController(withIdentifier: "WebViewController") {
+            self.navigationController?.pushViewController(controller, animated: true)
+        }
+    }
+    
+    @IBAction func clickMoveToTableController(_ sender: Any) {
+        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "TableController") {
             self.navigationController?.pushViewController(controller, animated: true)
         }
     }

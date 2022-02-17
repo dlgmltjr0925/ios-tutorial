@@ -18,6 +18,7 @@
 		3250992227D3853800B9F3C5 /* tutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3250992127D3853800B9F3C5 /* tutorialUITestsLaunchTests.swift */; };
 		328D079F27D38DA300AB11E8 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D079E27D38DA300AB11E8 /* DetailController.swift */; };
 		328D07A127D394C800AB11E8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D07A027D394C800AB11E8 /* WebViewController.swift */; };
+		328D07A327D39AA800AB11E8 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D07A227D39AA800AB11E8 /* TableController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3250992127D3853800B9F3C5 /* tutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		328D079E27D38DA300AB11E8 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		328D07A027D394C800AB11E8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		328D07A227D39AA800AB11E8 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				3250990C27D3853800B9F3C5 /* Info.plist */,
 				328D079E27D38DA300AB11E8 /* DetailController.swift */,
 				328D07A027D394C800AB11E8 /* WebViewController.swift */,
+				328D07A227D39AA800AB11E8 /* TableController.swift */,
 			);
 			path = tutorial;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328D07A327D39AA800AB11E8 /* TableController.swift in Sources */,
 				328D079F27D38DA300AB11E8 /* DetailController.swift in Sources */,
 				3250990327D3853700B9F3C5 /* ViewController.swift in Sources */,
 				325098FF27D3853700B9F3C5 /* AppDelegate.swift in Sources */,

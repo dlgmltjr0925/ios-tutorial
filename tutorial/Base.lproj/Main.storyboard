@@ -34,10 +34,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSQ-hf-N4d">
-                                <rect key="frame" x="134" y="433" width="147" height="31"/>
+                                <rect key="frame" x="132" y="433" width="151" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Move"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Move To DetailView"/>
                                 <connections>
                                     <action selector="clickMoveBtn:" destination="Hon-wi-PqG" eventType="touchUpInside" id="x9k-cq-9XM"/>
                                 </connections>
@@ -49,6 +49,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Move To WebView"/>
                                 <connections>
                                     <action selector="clickMoveToWebViewController:" destination="Hon-wi-PqG" eventType="touchUpInside" id="GlH-Rb-kye"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ef5-Me-95X">
+                                <rect key="frame" x="117" y="575" width="181" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Move To TableController"/>
+                                <connections>
+                                    <action selector="clickMoveToTableController:" destination="Hon-wi-PqG" eventType="touchUpInside" id="mD2-dW-AUC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -111,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="1521.7391304347827" y="656.25"/>
         </scene>
-        <!--View Controller-->
+        <!--Table Controller-->
         <scene sceneID="hEI-ri-ylj">
             <objects>
-                <viewController id="vBq-9W-pF5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TableController" id="vBq-9W-pF5" customClass="TableController" customModule="tutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r6z-FN-LUh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -133,6 +142,9 @@
                             <constraint firstItem="mKj-0c-Blv" firstAttribute="trailing" secondItem="XgC-yP-Q8i" secondAttribute="trailing" id="dgE-Ns-SKc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="mKj-0c-Blv" id="Q0V-Kn-RPH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="72z-mx-p7G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
