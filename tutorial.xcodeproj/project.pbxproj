@@ -19,6 +19,7 @@
 		328D079F27D38DA300AB11E8 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D079E27D38DA300AB11E8 /* DetailController.swift */; };
 		328D07A127D394C800AB11E8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D07A027D394C800AB11E8 /* WebViewController.swift */; };
 		328D07A327D39AA800AB11E8 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D07A227D39AA800AB11E8 /* TableController.swift */; };
+		328D07A527D3A1C100AB11E8 /* Type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D07A427D3A1C100AB11E8 /* Type1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		328D079E27D38DA300AB11E8 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		328D07A027D394C800AB11E8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		328D07A227D39AA800AB11E8 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		328D07A427D3A1C100AB11E8 /* Type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				328D079E27D38DA300AB11E8 /* DetailController.swift */,
 				328D07A027D394C800AB11E8 /* WebViewController.swift */,
 				328D07A227D39AA800AB11E8 /* TableController.swift */,
+				328D07A427D3A1C100AB11E8 /* Type1.swift */,
 			);
 			path = tutorial;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				325098FF27D3853700B9F3C5 /* AppDelegate.swift in Sources */,
 				328D07A127D394C800AB11E8 /* WebViewController.swift in Sources */,
 				3250990127D3853700B9F3C5 /* SceneDelegate.swift in Sources */,
+				328D07A527D3A1C100AB11E8 /* Type1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

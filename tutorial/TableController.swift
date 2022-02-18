@@ -19,11 +19,21 @@ class TableController: UIViewController, UITableViewDataSource, UITableViewDeleg
         // 무엇?
         // 2가지
         // 1번 방법 - 임의의 셀 만들기
-        let tableViewCell = UITableViewCell.init(style: .default, reuseIdentifier: "TableCellType1")
+//        let tableViewCell = UITableViewCell.init(style: .default, reuseIdentifier: "Type1")
+//
+//        tableViewCell.textLabel?.text = "\(indexPath.row)"
+//
+//        return tableViewCell
         
-        tableViewCell.textLabel?.text = "\(indexPath.row)"
+        let tableViewCell = tableView.dequeueReusableCell(withIdentifier: "Type1", for: indexPath) as! Type1
+        
+        tableViewCell.label.text = "\(indexPath.row)"
         
         return tableViewCell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("\(indexPath.row)")
     }
     
     override func viewDidLoad() {
